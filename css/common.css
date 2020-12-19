@@ -1,0 +1,124 @@
+@charset "utf-8";
+html,
+body,
+div,
+p,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+a,
+form,
+input,
+select,
+option,
+label,
+textarea,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+span,
+i,
+em,
+b,
+strong,
+img,
+table,
+tr,
+td,
+figure,
+figcaption header,
+section,
+main,
+footer {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+b,
+strong,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+}
+
+em,
+i {
+    font-size: normal;
+}
+
+img {
+    display: block;
+}
+
+.clearFix::after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+    overflow: hidden;
+}
+
+html,
+body {
+    width: 100%;
+}
+
+
+/* @media screen and (max-width: 320px){
+    html{
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 375px){
+    html{
+        font-size: 13px;
+    }
+}
+
+@media screen and (min-width: 376px) and (max-width: 414px){
+    html{
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 415px) and (max-width: 768px){
+    html{
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    html{
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 1025px){
+    html{
+        font-size: 17px;
+    }
+} */

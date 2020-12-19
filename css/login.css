@@ -1,0 +1,114 @@
+@charset "UTF-8";
+body {
+  overflow-y: auto;
+  height: 100%;
+  background: #f9f9f9;
+  color: #666;
+  font-size: 14px;
+  font-family: Helvetica, arial, "MI Lan Pro", "Hiragino Sans GB", "PingFang SC", "Microsoft YaHei", "微軟正黑體", "儷黑 Pro", sans-serif;
+}
+
+.t_c {
+  text-align: center;
+}
+
+.logal {
+  padding-bottom: 40px;
+}
+.logal .milogo {
+  display: block;
+  width: 49px;
+  height: 48px;
+  margin: 0 auto;
+  display: block;
+  cursor: default;
+  background-image: url(https://account.xiaomi.com/static/res/349d9c1/account-static/respassport/acc-2014/img/milogo.png);
+}
+
+.title-item .title_big30 {
+  color: #333;
+  line-height: 1.5;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+p {
+  text-align: center;
+}
+p .tits {
+  margin: 10px auto;
+  width: 310px;
+  height: 30px;
+  line-height: 22px;
+  padding: 5px 10px 5px 10px;
+  display: block;
+  border: 1px solid #f66 !important;
+}
+p .tits:focus {
+  outline: 0 none;
+}
+p button {
+  width: 330px;
+  background-color: #ff6700;
+  margin-top: 15px;
+  border: 1px solid rgba(186, 186, 186, 0.3);
+  color: #fff;
+  height: 42px;
+  margin: 0 auto;
+  line-height: 42px;
+  text-align: center;
+  font-size: 14px;
+  display: block;
+  cursor: pointer;
+  overflow: hidden;
+}
+p button:focus {
+  outline: 0 none;
+}
+
+.msg {
+  color: #9d9d9d;
+  text-align: center;
+  padding-top: 70px;
+}
+.msg .n_checked {
+  padding: 10px 0;
+  cursor: pointer;
+  display: inline-block;
+}
+
+a.current {
+  color: #333;
+}
+
+.n-footer {
+  color: #9d9d9d;
+  text-align: center;
+  height: 80px;
+  margin-top: 35px;
+}
+.n-footer .nf-link-area {
+  text-align: center;
+}
+.n-footer .nf-link-area li {
+  display: inline-block;
+  align-self: start;
+}
+.n-footer .nf-link-area li a {
+  padding: 0 10px;
+}
+.n-footer .nf-intro {
+  padding: 10px;
+}
+.n-footer .nf-intro .beianlink {
+  color: #9d9d9d;
+}
+.n-footer .nf-intro span {
+  display: inline-block;
+}
+.n-footer .nf-intro a {
+  display: inline-block;
+}
+.n-footer .nf-intro a img {
+  display: inline-block;
+}
